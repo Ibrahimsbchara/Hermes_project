@@ -61,7 +61,7 @@
   tbody tr:last-child { border-bottom: none; }
   tbody tr:hover { background: #fafafa; }
   tbody td { padding: 13px 16px; font-size: 14px; color: #374151; vertical-align: middle; }
-  .td-name { font-weight: 600; color: #111827; max-width: 220px; }
+  .td-name { font-weight: 600; color: #111827; max-width: 260px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .td-desc { color: #6b7280; font-size: 13px; max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .td-actions { display: flex; gap: 6px; align-items: center; }
   .tbl-btn {
