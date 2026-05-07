@@ -25,7 +25,7 @@
   .nav-tab.active { background: #111827; color: #fff; }
 
   /* VIEWS */
-  .view { display: none; max-width: 900px; margin: 0 auto; padding: 32px 24px; }
+  .view { display: none; max-width: 1200px; margin: 0 auto; padding: 32px 24px; }
   .view.active { display: block; }
 
   .page-heading { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 22px; gap: 16px; }
@@ -53,7 +53,7 @@
   .btn-danger:hover { background: #fef2f2; }
 
   /* TABLE */
-  .table-wrap { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; }
+  .table-wrap { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; overflow-x: auto; }
   table { width: 100%; border-collapse: collapse; }
   thead tr { background: #f9fafb; border-bottom: 1px solid #e5e7eb; }
   thead th { padding: 11px 16px; font-size: 11px; font-weight: 700; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.06em; text-align: left; white-space: nowrap; }
@@ -63,7 +63,7 @@
   tbody td { padding: 13px 16px; font-size: 14px; color: #374151; vertical-align: middle; }
   .td-name { font-weight: 600; color: #111827; max-width: 260px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .td-desc { color: #6b7280; font-size: 13px; max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .td-actions { display: flex; gap: 6px; align-items: center; }
+  .td-actions { display: flex; gap: 6px; align-items: center; white-space: nowrap; min-width: 150px; }
   .tbl-btn {
     padding: 5px 12px; border-radius: 6px; font-size: 12px; font-weight: 600; cursor: pointer;
     border: 1.5px solid #e5e7eb; background: #fff; color: #6b7280; transition: all 0.13s; font-family: 'Segoe UI', sans-serif;
